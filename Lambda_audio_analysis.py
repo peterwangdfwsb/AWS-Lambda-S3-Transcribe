@@ -3,7 +3,7 @@ import time
 import boto3
 from urllib.request import urlopen
 
-transcribe = boto3.client('transcribe')
+#transcribe = boto3.client('transcribe')
 
 def lambda_handler(event, context):
     transcribe = boto3.client('transcribe')
